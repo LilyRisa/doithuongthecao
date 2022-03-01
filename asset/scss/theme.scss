@@ -1,0 +1,73 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body{
+    font-family: 'roboto','sans-serif';
+    font-size: 14px;
+    line-height: 21px;
+    overflow: overlay;
+}
+
+h1{
+    line-height: 40px;
+}
+a, a:hover, a:active{
+    text-decoration: none;
+    color: #111;
+}
+h1 {
+	>a {
+		color: #111;
+	}
+}
+h2 {
+	>a {
+		color: #111;
+	}
+}
+h3 {
+	>a {
+		color: #111;
+	}
+}
+h4 {
+	>a {
+		color: #111;
+	}
+}
+h5 {
+	>a {
+		color: #111;
+	}
+}
+h6 {
+	>a {
+		color: #111;
+	}
+}
+
+p{
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto',sans-serif;
+    color: #111;
+    font-weight: 400;
+    margin: 6px 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+@import 'home';
+@import 'game_bai';

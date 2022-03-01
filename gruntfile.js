@@ -24,8 +24,9 @@ module.exports = function(grunt) {
 
             js: {
                 src: [
-                    'jquery-3.6.0.min.js',
+                    'asset/js/jquery-3.6.0.min.js',
                     'asset/js/bootstrap.bundle.min.js',
+                    'asset/js/starrr.js',
                 ],
                 dest: 'public/js/all_minify.min.js'
             }

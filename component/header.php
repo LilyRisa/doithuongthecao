@@ -42,7 +42,7 @@
                     <div class="header-menu col-11">
                         <ul class="main-menu">
                             <li class="menu-item menu-item-current">
-                                <a href="#">Trang chủ</a>
+                                <a href="/">Trang chủ</a>
                             </li>
                             <li class="menu-item">
                                 <a href="game-bai.php">Game bài miễn phí</a>
